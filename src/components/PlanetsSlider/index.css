@@ -1,0 +1,37 @@
+* {
+  margin: 0px;
+  font-family: 'Roboto';
+}
+
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/planets-app/planets-bg-img.png');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container {
+  width: 70%;
+}
+
+.planets-heading {
+  color: #05acff;
+  text-align: center;
+  font-size: 38px;
+  padding-top: 90px;
+  padding-bottom: 50px;
+}
+
+.list-container {
+  padding-left: 0px;
+  list-style-type: none;
+}
+
+@media screen and (max-width: 767px) {
+  .planets-heading {
+    font-size: 30px;
+    padding-top: 45px;
+    padding-bottom: 35px;
+  }
+}
